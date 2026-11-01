@@ -48,7 +48,7 @@ To train and evaluate the model, run the Jupyter notebook provided in the reposi
     jupyter notebook
     ```
 
-2. Open the `98-accuracy-binary-classification-bone-fracture-2.ipynb` notebook and run the cells sequentially.
+2. Open the `bone-fracture-binary-classification.ipynb` notebook and run the cells sequentially.
 
 ## Model Architecture
 
@@ -72,6 +72,8 @@ model = Sequential([
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
 ```
 ## Results
+
+<img src="assets/training_curves.png" width="80%" alt="Training and validation accuracy and loss" />
 
 The model was evaluated on the validation and test datasets, achieving the following results:
 
